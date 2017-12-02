@@ -1,0 +1,10 @@
+<div class="userdata" *ngIf="showUserData">
+  <div class="cardData" *ngFor="let user of userdata;" >
+    <span>userName : {{user.username}}</span><br>
+    <span>email : {{user.email}}</span><br>
+    <span>contact No : {{user.phone}}</span><br>
+    <span><a href="user.website">{{user.website}}</a></span>
+    <button (click)="openUserData(user)">View Todos</button>
+  </div>
+
+</div>

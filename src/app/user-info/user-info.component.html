@@ -1,0 +1,13 @@
+<div class="row superDiv  cardData">
+  <div class="col-md-12 mainDiv " >
+    <div class="usertodo todoColor" *ngFor="let todo of todoList"> 
+      <span><b>Title: </b>{{todo.title}}</span><br>
+      <span><b>Status: </b>{{todo.completed}}</span>
+    </div>
+    
+  </div>
+  <div class="addNewTodod new">
+      <input type="text" class="listdata">
+      <button>Add Todo</button>
+    </div>
+</div>

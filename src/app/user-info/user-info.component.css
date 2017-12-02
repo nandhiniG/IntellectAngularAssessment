@@ -1,0 +1,32 @@
+.mainDiv{
+    overflow-y: scroll;
+    height: 200px;
+    
+}
+.todoColor{
+    border:1px solid gray;
+}
+.superDiv{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+    margin-bottom:20%;
+}
+.new{
+    margin-top: 12px;
+}
+.cardData {
+    width:800px; 
+    margin:0 auto;
+    position:relative;
+    margin-top:15%;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding:11px 2px 2px 2px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.cardData:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
